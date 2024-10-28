@@ -44,7 +44,7 @@ function submitForm() {
     eventList.appendChild(newEvent);
     
     // Change the background image and opacity
-    document.body.style.backgroundImage = "url('g.jpg')";
+    document.body.style.backgroundImage = "url('./images/g.jpg')";
     document.body.style.backgroundSize = "cover";
     document.body.style.backgroundPosition = "center";
     document.body.style.backgroundColor= "rgba(0, 0, 0, 0.7)"; // Dark overlay for less visibility
@@ -86,7 +86,7 @@ function gotoform() {
     t.style.display = 'none';
     
     tour.style.display = 'none'; 
-    document.body.style.backgroundImage = "url('back.jpg')";
+    document.body.style.backgroundImage = "url('./images/back.jpg')";
     document.body.style.backgroundSize = "cover";
     document.body.style.backgroundPosition = "center";
     document.body.style.backgroundColor= "rgba(0, 0, 0, 0.7)";// Clear the event list
